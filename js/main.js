@@ -2,7 +2,7 @@
    Shreenidhi Ayurved – Main Script | Author: Himanshu
    ========================================================= */
 
-const PHONE_PRIMARY = "918962414401"; // used for Call / WhatsApp links
+const PHONE_PRIMARY = "917000173572"; // used for Call / WhatsApp links
 
 /* ---------- Icons (stroke SVG paths) ---------- */
 const ICONS = {
