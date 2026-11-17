@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!-- Shreenidhi Ayurved website | Author: Himanshu -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreenidhi Ayurved - Consulting &amp; Panchkarma Clinic, Durg</title>
+  <meta name="description" content="Shreenidhi Ayurved – authentic Ayurvedic consulting and Panchkarma clinic in Ganjpara, Durg, Chhattisgarh. Root-cause healing by B.A.M.S. physicians Dr. Mayank Sahu and Dr. Nidhi Chandrakar." />
+  <meta name="author" content="Himanshu" />
+  <link rel="icon" href="images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= TOP BAR ================= -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="tb-item">
+          <svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Mon - Sun: 10:00 AM - 2:00 PM | 4:00 PM - 9:00 PM
+        </span>
+        <span class="tb-item">
+          <svg class="ic" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Amayra Palace, Ganjpara, Durg
+        </span>
+      </div>
+      <div class="topbar-right">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        <a href="tel:+918962414401">+91 89624-14401</a>
+        <a href="tel:+918770225974">+91 87702-25974</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER / NAV ================= -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <span class="brand-logo"><img src="images/logo.png" alt="Shreenidhi Ayurved logo" /></span>
+        <span class="brand-text">
+          <strong>Shreenidhi Ayurved</strong>
+          <small>Consulting &amp; Panchkarma Clinic</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#panchakarma" class="nav-link">Panchkarma</a>
+        <a href="#doctors" class="nav-link">Doctors</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Book Appointment</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Ancient Wisdom, Modern Care</p>
+          <h1>Holistic Healing <span class="accent">Through Ayurveda</span></h1>
+          <p class="hero-text">Ayurveda treats the root cause, not just the symptoms. Experience authentic Panchkarma therapies and personalized Ayurvedic care at Shreenidhi Ayurved.</p>
+          <div class="hero-actions">
+            <a href="tel:+918962414401" class="btn btn-primary btn-lg">
+              <svg class="ic" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              Call Now
+            </a>
+            <a href="#contact" class="btn btn-outline btn-lg">
+              <svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+              Book Appointment
+            </a>
+          </div>
+          <div class="open-status">
+            <span class="dot" id="openDot"></span>
+            <span id="openText">Open Today</span>
+            <span class="muted">Mon - Sun</span>
+            <span class="muted">10 AM - 2 PM | 4 PM - 9 PM</span>
+          </div>
+        </div>
+
+        <div class="hero-media reveal delay-1">
+          <div class="frame-card">
+            <img src="images/hero-heal-from-the-root.jpeg" alt="Shreenidhi Ayurved poster – Heal from the Root: Ayurveda treats the root cause, not just the symptoms" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About Us</p>
+          <h2>Rooted in Tradition, <span class="accent">Focused on You</span></h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-media reveal">
+            <div class="frame-card">
+              <img src="images/ayurvedic-cycle.jpeg" alt="Ayurvedic Cycle chart showing Vata, Pitta and Kapha times of the day" />
+            </div>
+          </div>
+
+          <div class="about-content reveal delay-1">
+            <h3>Shreenidhi Ayurved</h3>
+            <p>Founded by <strong>Dr. Mayank Sahu</strong> and <strong>Dr. Nidhi Chandrakar</strong>, both B.A.M.S. qualified Ayurvedic physicians, Shreenidhi Ayurved is a trusted name for authentic Ayurvedic healing in Durg, Chhattisgarh.</p>
+            <p>We specialize in classical Panchkarma detox therapies, chronic disease management, skin &amp; hair treatments, women's health, pediatric care (Suvarnaprashan), and personalized diet &amp; lifestyle correction rooted in the principles of Ayurveda.</p>
+
+            <div class="feature-grid">
+              <div class="feature">
+                <span class="f-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+                <div><h4>100% Natural</h4><p>Pure herbal formulations with no side effects</p></div>
+              </div>
+              <div class="feature">
+                <span class="f-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+                <div><h4>Root Cause Healing</h4><p>Treating the source of ailments, not just symptoms</p></div>
+              </div>
+              <div class="feature">
+                <span class="f-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1Z"/></svg></span>
+                <div><h4>Authentic Panchkarma</h4><p>Classical detox therapies by trained therapists</p></div>
+              </div>
+              <div class="feature">
+                <span class="f-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M9.94 14.06 2 22M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8Z"/><path d="M20 3v4M22 5h-4"/></svg></span>
+                <div><h4>Holistic Approach</h4><p>Mind, body, and soul wellness through ancient wisdom</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our Services</p>
+          <h2>Comprehensive <span class="accent">Ayurvedic Care</span></h2>
+          <p class="section-sub">We provide holistic treatment for a wide range of conditions using time-tested Ayurvedic principles and herbal formulations.</p>
+          <span class="divider"></span>
+        </div>
+
+        <div class="services-grid" id="servicesGrid"><!-- rendered by js/main.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= PANCHAKARMA ================= -->
+    <section class="section" id="panchakarma">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Panchkarma Therapies</p>
+          <h2>Classical <span class="accent">Detox &amp; Healing</span></h2>
+          <p class="section-sub">Experience authentic Panchkarma therapies performed by trained practitioners using traditional methods and pure herbal preparations.</p>
+          <span class="divider"></span>
+        </div>
+
+        <div class="pk-grid">
+          <div class="pk-media reveal">
+            <div class="pk-main img-card">
+              <img src="images/shirodhara.jpeg" alt="Shirodhara therapy poster – warm herbal oil stream on the forehead" />
+            </div>
+            <div class="pk-thumbs">
+              <div class="img-card"><img src="images/netra-tarpan.jpeg" alt="Netra Tarpan eye therapy poster" /></div>
+              <div class="img-card"><img src="images/saundarya-chikitsa.jpeg" alt="Saundarya Chikitsa (Ayurvedic beauty therapy) poster" /></div>
+            </div>
+          </div>
+
+          <div class="therapy-list reveal delay-1" id="therapyList"><!-- rendered by js/main.js --></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DOCTORS ================= -->
+    <section class="section section-alt" id="doctors">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our Doctors</p>
+          <h2>Experienced <span class="accent">Ayurvedic Physicians</span></h2>
+          <p class="section-sub">Our qualified B.A.M.S. doctors combine ancient Ayurvedic wisdom with modern diagnostic understanding.</p>
+          <span class="divider"></span>
+        </div>
+
+        <div class="doctors-grid">
+          <article class="doctor-card reveal">
+            <span class="doc-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
+            <h3>Dr. Mayank Sahu</h3>
+            <p class="hindi">वैद्य मयंक साहू</p>
+            <div class="doc-meta">
+              <span><svg class="ic" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>B.A.M.S.</span>
+              <span><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg>Reg. CG05186</span>
+            </div>
+            <div class="doc-spec">Nadi Vaidya (Pulse Diagnosis Specialist)<small>नाड़ी वैद्य</small></div>
+            <p class="doc-desc">Expert in pulse diagnosis and classical Ayurvedic treatments with deep knowledge of Panchakarma therapies and chronic disease management.</p>
+          </article>
+
+          <article class="doctor-card reveal delay-1">
+            <span class="doc-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
+            <h3>Dr. Nidhi Chandrakar</h3>
+            <p class="hindi">वैद्य निधि चंद्राकर</p>
+            <div class="doc-meta">
+              <span><svg class="ic" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>B.A.M.S.</span>
+              <span><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg>Reg. CG05617</span>
+            </div>
+            <div class="doc-spec">Skin, Hair &amp; Dermatology Specialist<small>चर्म रोग केश रोग विशेषज्ञ</small></div>
+            <p class="doc-desc">Specializes in Ayurvedic dermatology, women's health, beauty therapies, and holistic skin &amp; hair care treatments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRODUCTS ================= -->
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our Products</p>
+          <h2>Handcrafted <span class="accent">Ayurvedic Products</span></h2>
+          <p class="section-sub">Authentic, handmade herbal preparations crafted with care for your family's well-being.</p>
+          <span class="divider"></span>
+        </div>
+
+        <div class="products-grid" id="productsGrid"><!-- rendered by js/main.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section section-alt" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>A Glimpse of <span class="accent">Our Clinic</span></h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal" data-caption="Panchkarma Chikitsa">
+            <img src="images/gallery-panchkarma-chikitsa.jpeg" alt="Panchkarma Chikitsa – collage of Ayurvedic Panchkarma treatments" />
+            <figcaption>Panchkarma Chikitsa</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="images/gallery-saundarya-chikitsa.jpeg" alt="Saundarya Chikitsa – Ayurvedic beauty and skin therapies" />
+            <figcaption>Saundarya Chikitsa</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-shirodhara.jpeg" alt="Shirodhara – Ayurvedic oil-stream therapy for the mind" />
+            <figcaption>Shirodhara</figcaption>
+          </figure>
+          <figure class="gallery-item reveal delay-1">
+            <img src="images/gallery-netra-tarpan.jpeg" alt="Netra Tarpan – calm eyes, clear vision" />
+            <figcaption>Netra Tarpan</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What Our <span class="accent">Patients Say</span></h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="testi-grid" id="testiGrid"><!-- rendered by js/main.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Frequently Asked <span class="accent">Questions</span></h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="faq-list reveal" id="faqList"><!-- rendered by js/main.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Contact Us</p>
+          <h2>Get In <span class="accent">Touch</span></h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-card">
+              <span class="i-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><h4>Address</h4><p>Amayra Palace, Ganjpara, Durg, Chhattisgarh 491001</p></div>
+            </div>
+            <div class="info-card">
+              <span class="i-ic"><svg class="ic" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span>
+              <div><h4>Phone</h4><p><a href="tel:+918962414401">+91 89624-14401</a> | <a href="tel:+918770225974">+91 87702-25974</a></p></div>
+            </div>
+            <div class="info-card">
+              <span class="i-ic"><svg class="ic" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+              <div><h4>Email</h4><p><a href="mailto:shreenidhiayurved9@gmail.com">shreenidhiayurved9@gmail.com</a></p></div>
+            </div>
+            <div class="info-card">
+              <span class="i-ic"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+              <div><h4>Timings</h4><p>Monday to Sunday<br />Morning: 10:00 AM - 2:00 PM<br />Evening: 4:00 PM - 9:00 PM</p></div>
+            </div>
+            <div class="map-wrap">
+              <iframe title="Shreenidhi Ayurved location on Google Maps" src="https://www.google.com/maps?q=Amayra+Palace,+Ganjpara,+Durg,+Chhattisgarh+491001&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-card reveal delay-1">
+            <h3>Book an Appointment</h3>
+            <p class="muted">Fill in the form and we will get back to you shortly.</p>
+            <form id="appointmentForm" novalidate>
+              <div class="field">
+                <label for="fName">Full Name</label>
+                <input type="text" id="fName" name="name" placeholder="Enter your full name" required />
+                <small class="err"></small>
+              </div>
+              <div class="field">
+                <label for="fPhone">Phone Number</label>
+                <input type="tel" id="fPhone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+                <small class="err"></small>
+              </div>
+              <div class="field">
+                <label for="fEmail">Email (Optional)</label>
+                <input type="email" id="fEmail" name="email" placeholder="your@email.com" />
+                <small class="err"></small>
+              </div>
+              <div class="field">
+                <label for="fMsg">Describe Your Condition</label>
+                <textarea id="fMsg" name="message" rows="3" placeholder="Tell us about your health concern..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block btn-lg">
+                <svg class="ic" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                Send Enquiry
+              </button>
+              <p class="form-success" id="formSuccess" hidden>Thank you! Your enquiry is ready in WhatsApp — just press send and we will contact you shortly.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA BAND ================= -->
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h3>Ready to begin your healing journey?</h3>
+          <p>Call us today or visit our clinic</p>
+        </div>
+        <a href="tel:+918962414401" class="btn btn-light">Call Now</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="f-col">
+        <a href="#home" class="brand brand-footer">
+          <span class="brand-logo sq"><img src="images/logo.png" alt="Shreenidhi Ayurved logo" /></span>
+          <span class="brand-text">
+            <strong>Shreenidhi Ayurved</strong>
+            <small>Consulting &amp; Panchkarma Clinic</small>
+          </span>
+        </a>
+        <p>Authentic Ayurvedic healing rooted in ancient wisdom. We treat the root cause, not just the symptoms.</p>
+      </div>
+      <div class="f-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#panchakarma">Panchkarma</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Our Therapies</h4>
+        <ul>
+          <li><a href="#panchakarma">Shirodhara</a></li>
+          <li><a href="#panchakarma">Abhyanga Massage</a></li>
+          <li><a href="#panchakarma">Netra Tarpan</a></li>
+          <li><a href="#panchakarma">Nasya Therapy</a></li>
+          <li><a href="#panchakarma">Kati Basti</a></li>
+          <li><a href="#panchakarma">Virechana</a></li>
+          <li><a href="#products">Suvarnaprashan</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Contact Info</h4>
+        <ul class="f-contact">
+          <li><svg class="ic" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Amayra Palace, Ganjpara, Durg, Chhattisgarh 491001</li>
+          <li><svg class="ic" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg><span><a href="tel:+918962414401">+91 89624-14401</a> | <a href="tel:+918770225974">+91 87702-25974</a></span></li>
+          <li><svg class="ic" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><a href="mailto:shreenidhiayurved9@gmail.com">shreenidhiayurved9@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Shreenidhi Ayurved. All rights reserved.<span class="credit">Designed &amp; Developed by <strong>Himanshu</strong></span></p>
+      <button class="to-top" id="toTop" aria-label="Back to top">
+        <svg class="ic" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7M12 19V5"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING: MUSIC + WHATSAPP ================= -->
+  <div class="music-widget">
+    <button class="music-btn" id="musicBtn" aria-label="Play soft ambient music" aria-pressed="false">
+      <svg class="ic ic-off" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5Z"/><path d="m22 9-6 6M16 9l6 6"/></svg>
+      <svg class="ic ic-on" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5Z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+    </button>
+    <span class="music-tip" id="musicTip">Click to play soft ambient music</span>
+    <!-- Optional: put your own track at audio/ambient.mp3. If it's missing, a soft generated tone is used. -->
+    <audio id="ambientAudio" src="audio/ambient.mp3" loop preload="none"></audio>
+  </div>
+
+  <a class="whatsapp-float" href="https://wa.me/918962414401?text=Namaste%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Shreenidhi%20Ayurved." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg>
+    WhatsApp
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
