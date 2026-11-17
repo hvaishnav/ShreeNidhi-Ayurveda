@@ -98,7 +98,7 @@ const FAQS = [
   { q: "Do I need to follow a special diet during treatment?",
     a: "Yes, a light and easily digestible diet (pathya) is recommended during treatment to get the best results. Our doctors will give you a personalised diet and lifestyle chart based on your body type and condition." },
   { q: "What are the clinic timings and how can I book an appointment?",
-    a: "We are open Monday to Sunday — Morning: 10:00 AM to 2:00 PM and Evening: 4:00 PM to 9:00 PM. You can call us at +91 89624-14401 / +91 87702-25974, message us on WhatsApp, or fill the appointment form on this page." },
+    a: "We are open Monday to Sunday — Morning: 10:00 AM to 2:00 PM and Evening: 4:00 PM to 9:00 PM. You can call us at +91 89624-14401, message us on WhatsApp, or fill the appointment form on this page." },
 ];
 
 /* ---------- Render helpers ---------- */
