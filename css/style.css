@@ -45,7 +45,7 @@ p { margin: 0; }
 .container { width: min(1140px, 92%); margin-inline: auto; }
 .accent { color: var(--maroon); }
 .muted { color: var(--muted); }
-.hindi { font-family: var(--deva); color: var(--maroon); font-size: 12px; }
+.hindi { font-family: var(--deva); color: var(--maroon); font-size: 18px; }
 
 /* Icons (stroke SVG) */
 .ic {
@@ -218,7 +218,7 @@ p { margin: 0; }
 .therapy:hover { background: #fff; border-color: var(--gold-soft); box-shadow: var(--shadow); transform: translateX(4px); }
 .therapy .bullet { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); margin-top: 8px; flex-shrink: 0; }
 .therapy h4 { font-size: 14px; color: var(--brown); font-weight: 600; }
-.therapy .hindi { font-size: 11px; display: block; margin-bottom: 4px; }
+.therapy .hindi { font-size: 15px; display: block; margin-bottom: 4px; }
 .therapy p { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
 
 /* ---------- Doctors ---------- */
