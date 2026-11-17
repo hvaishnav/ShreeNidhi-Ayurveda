@@ -81,7 +81,7 @@ const PRODUCTS = [
 
 const TESTIMONIALS = [
   { text: "I suffered from chronic back pain for years. After Panchkarma therapy at Shreenidhi Ayurved, I feel completely rejuvenated. Dr. Mayank's pulse diagnosis was remarkably accurate.", name: "Rajesh Verma", city: "Durg" },
-  { text: "My daughter's immunity improved significantly after starting Suvarnaprashan. She hardly falls sick now. Truly grateful to Dr. Nidhi for her guidance and care.", name: "Sunita Sharma", city: "Bhilai" },
+  { text: "My daughter's immunity improved significantly after starting Suvarnaprashan. She hardly falls sick now. Truly grateful to Dr. Mayank for his guidance and care.", name: "Sunita Sharma", city: "Bhilai" },
   { text: "The Shirodhara therapy was a life-changing experience for my anxiety and insomnia. The entire team is very professional and the clinic has such a calming atmosphere.", name: "Priya Patel", city: "Raipur" },
   { text: "Best Ayurvedic clinic in the region. Dr. Sahu treated my chronic skin condition that allopathy couldn't solve. Highly recommend their Panchkarma treatments.", name: "Amit Soni", city: "Durg" },
 ];
@@ -98,7 +98,7 @@ const FAQS = [
   { q: "Do I need to follow a special diet during treatment?",
     a: "Yes, a light and easily digestible diet (pathya) is recommended during treatment to get the best results. Our doctors will give you a personalised diet and lifestyle chart based on your body type and condition." },
   { q: "What are the clinic timings and how can I book an appointment?",
-    a: "We are open Monday to Sunday — Morning: 10:00 AM to 2:00 PM and Evening: 4:00 PM to 9:00 PM. You can call us at +91 89624-14401, message us on WhatsApp, or fill the appointment form on this page." },
+    a: "We are open Monday to Sunday — Morning: 10:00 AM to 2:00 PM and Evening: 4:00 PM to 9:00 PM. You can call us at +91 89624-14401 / 70001-73572, message us on WhatsApp, or fill the appointment form on this page." },
 ];
 
 /* ---------- Render helpers ---------- */
